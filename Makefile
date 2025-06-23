@@ -10,7 +10,7 @@ functions.o: functions.c
 	gcc -c functions.c
 
 clean:
-	del functions.o main.o main
+	del functions.o main.o main.exe
 
 
 
