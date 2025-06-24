@@ -1,7 +1,7 @@
 #-*- Makefile -*-
 
 main: main.o functions.o
-	gcc main.o functions.o -o main
+	gcc main.o functions.o -o 
 
 main.o: main.c prototypes.h
 	gcc -c main.c
